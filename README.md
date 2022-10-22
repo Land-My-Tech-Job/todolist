@@ -11,13 +11,13 @@ When finished please paste a link to your trello board here:
 
 You will be building a to-do list app that includes: 
 
-- An `h1` title (e.g. "My To-Dos").
+- An `h1` title
 - A single `ul` tag, empty when the page is first loaded.
 - A `form` for the user to add a new to-do, with a single text `input` and a `submit` button.
 
-Make sure that your project includes the functionalities below:
+Make sure that your project includes all of the functionalities below:
 
-- When the user writes something in the `form`'s text input area and clicks `submit`, the `ul` should update with a new `li` item at the bottom of the list. The page **should not refresh**.
+- When the user writes something in the `form`'s text input area and clicks `submit`, the `ul` should update with a new `li` item at the bottom of the list. Keep in mind that the page should not refresh.
 
   <details>
     <summary>
@@ -25,10 +25,9 @@ Make sure that your project includes the functionalities below:
     </summary>
   
     1. Add an event listener to the form with `.addEventListener`. What event do you want to listen for?
-    2. Remember, what does `event.preventDefault()` do?
-    3. Grab the value the user typed from the text input. Do you remember what property of the input node has this? If not Google it or ask a peer.
-    4. Create new `li` element with `document.createElement()`. Set its `textContent` property to be the text the user typed.
-    5. Don't forget to append the created `li` to the list.
+    2. Grab the value the user typed from the text input.
+    3. Create new `li` element with `document.createElement()`. Set its `textContent` property to be the text typed by the user
+    4. Don't forget to append the created `li` to the list.
 
   </details>
 
@@ -40,7 +39,7 @@ Make sure that your project includes the functionalities below:
     </summary>
   
     1. How can you check if the input text has something typed or not?
-    2. Have an empty paragraph that is above the `<ul>` and under the `<form>`. If the user didn't type anything, modify the content of the paragraph to display a text like: 'Error. Todo cannot be empty' 
+    2. Have an empty paragraph that is above the `<ul>` and under the `<form>`. If the user didn't type anything, modify the content of the paragraph to display a error message.
 
   </details>
 
@@ -56,8 +55,6 @@ Make sure that your project includes the functionalities below:
     3. Once you know what element the event occurred on (`event.target`) check out [`[element].style.textDecoration`](https://www.w3schools.com/jsref/prop_style_textdecoration.asp) to put a line through the text and get the todo cross out effect.
 
   </details>
-
-## Bonus Tasks
 
 - Have the input go back to empty after adding a new todo.
 - Implement a delete `button` next to each `li` that removes that `li` tag entirely.
