@@ -4,6 +4,8 @@ IMPORTANT: *Please don't forget to select **"Create a new branch for this commit
 
 In this exercise you'll practice using variables, arrays, functions and objects to build a to-do list app
 
+## Trello Board Link 
+When finished please paste a link to your trello board here: 
 
 ## Activity Instructions
 
