@@ -1,5 +1,3 @@
-IMPORTANT: *Please don't forget to select **"Create a new branch for this commit and start a pull request".** Do not commit directly to the main/master branch*
-
 ## Activity Overview  
 
 In this exercise you'll practice using variables, arrays, functions and objects to build a to-do list app
